@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+main#all { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "B612";
+}
+
+section#top {
+    gap: 1rem;
+
+}
+
+    p#available {
+        font-size: 1rem;
+    }
+
+    p#L {
+        font-size: 4rem;
+    }
+
+section#mid {
+    display: flex;
+    flex-direction: row;
+}
+
+    div#midinfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+        div#stats {
+            display: flex;
+            flex-direction: row;
+        }
+
+            div#clock {
+                display: flex;
+                flex-direction: row;
+            }
+
+            div#stars {
+                display: flex;
+                flex-direction: row;
+            }
+
+        div#buttons {
+            display: flex;
+            flex-direction: row;
+        }
+
+
+
+
+

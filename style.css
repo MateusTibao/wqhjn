@@ -12,39 +12,65 @@ main#all {
     justify-content: space-around;
     align-items: center;
     font-family: "B612";
+    gap: 11rem;
+    color: #fff;
 }
 
 section#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
+    padding: 2rem;
 
 }
+
+    p#L{
+        font-weight: 800;
+        font-size: 4rem;
+    }
+
 
     p#available {
         font-size: 1rem;
     }
 
-    p#L {
-        font-size: 4rem;
-    }
 
 section#mid {
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
     div#midinfo {
         display: flex;
         flex-direction: column;
+        gap: 3rem;
     }
+        
+        div#text{
+            font-weight: 0;
+            letter-spacing: 0.1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.7rem;
+        }
+
 
         div#stats {
             display: flex;
             flex-direction: row;
+            justify-content: space-around;
+            gap: 7rem;
         }
 
             div#clock {
                 display: flex;
                 flex-direction: row;
+                gap: 1rem;
+                align-items: center;
+                font-weight: 600;
+                font-size: 1.5rem;
             }
 
             div#stars {
@@ -52,12 +78,92 @@ section#mid {
                 flex-direction: row;
             }
 
+            p#year {
+                font-weight: 600;
+                font-size: 1.5rem;
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                align-items: center;
+            }
+
         div#buttons {
             display: flex;
             flex-direction: row;
+            gap: 1rem;
         }
+        
+        button#watch {
+            align-items: center;
+            appearance: button;
+            background-color: #0276FF;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            font-family: "RM Neue",sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+            padding: 10px 21px;
+            text-align: center;
+            text-transform: none;
+            transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            }
 
+            button#watch {
+            background-color: #006AE8;
+            }
 
+            button#watch {
+            background-color: #1C84FF;
+            }
+            
+            
+            button#trailer {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+body {
+    background-image: url(./images/fundo.png);
+    background-color: #020101;
+    }
 
 
 
